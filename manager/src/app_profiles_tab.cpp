@@ -87,7 +87,7 @@ AppProfilesTab::AppProfilesTab()
         }
 
         // Name
-        if (!langEntry->name)
+        if (!langEntry->name[0])
         {
             i++;
             continue;
